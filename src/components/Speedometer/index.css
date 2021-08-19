@@ -1,0 +1,52 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  padding: 30px;
+}
+
+.page-title {
+  font-size: 35px;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+}
+.image {
+  width: 100%;
+  max-width: 800px;
+}
+.speed {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.description {
+  font-weight: 400;
+  color: #cbd5e1;
+}
+.button-container {
+  display: flex;
+}
+.button {
+  height: 35px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0b69ff;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.apply-brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+}
